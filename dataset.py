@@ -50,6 +50,20 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed but kind of proud of myself",
+    "I absolutely love getting stuck in traffic 🙄",
+    "Not bad at all, actually",
+    "can't wait for finals week 🙃",
+    "Just got my exam grade back 💀💀",
+    "Class got cancelled lol",
+    "ugh mondays",
+    "my dog passed away today, thank you all for the love 🥲",
+    "So happy my sister is visiting this weekend",
+    "Honestly kind of proud of how my project turned out",
+    "The meeting got moved to Thursday",
+    "I'm so done with this week",
+    "Finally passed my driving test!!",
+    "Not sure how I feel about the new update",
 ]
 
 # Human labels for each post above.
@@ -65,6 +79,20 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "Lowkey stressed but kind of proud of myself"
+    "negative",  # "I absolutely love getting stuck in traffic 🙄" (sarcasm)
+    "positive",  # "Not bad at all, actually" (negated negative)
+    "negative",  # "can't wait for finals week 🙃" (sarcasm)
+    "negative",  # "Just got my exam grade back 💀💀" (edge case: 💀 can also mean laughing)
+    "neutral",   # "Class got cancelled lol" (edge case: depends on the person)
+    "negative",  # "ugh mondays"
+    "mixed",     # "my dog passed away today, thank you all for the love 🥲"
+    "positive",  # "So happy my sister is visiting this weekend" (sincere "happy")
+    "positive",  # "Honestly kind of proud of how my project turned out" (debatable: hedged "kind of")
+    "neutral",   # "The meeting got moved to Thursday"
+    "negative",  # "I'm so done with this week"
+    "positive",  # "Finally passed my driving test!!" ("passed" in a positive sense)
+    "neutral",   # "Not sure how I feel about the new update" (debatable: could be mixed)
 ]
 
 # TODO: Add 5-10 more posts and labels.
